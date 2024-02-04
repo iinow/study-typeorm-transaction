@@ -1,0 +1,21 @@
+### Get all posts
+GET /posts
+Host: localhost:3001
+
+### Get post by id
+GET /posts/1
+Host: localhost:3001
+
+### Delete a post
+DELETE /posts/2
+Host: localhost:3001
+
+### Create a new post
+POST /posts HTTP/1.1
+Host: localhost:3001
+Content-Type: application/json
+
+{
+  "title": "json-serve1r",
+  "author": "typico1de"
+}

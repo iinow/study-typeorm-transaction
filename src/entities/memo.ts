@@ -5,7 +5,9 @@ export class Memo {
     @PrimaryGeneratedColumn()
     id: number
 
-    @Column()
+    @Column({
+        comment: '메모 내용',
+    })
     content: string
 
     public static create(content: string): Memo {

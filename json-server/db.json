@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "title": "haha",
+      "author": "이건...",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

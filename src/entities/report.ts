@@ -5,7 +5,9 @@ export class Report {
     @PrimaryGeneratedColumn()
     id: number
 
-    @Column()
+    @Column({
+        comment: '보고서 내용',
+    })
     summaryContent: string
 
     public static create(summaryContent: string): Report {
